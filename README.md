@@ -2,6 +2,9 @@
 
 A lightweight plugin for **toggling emojis in tables** without entering Edit Mode.
 
+![F45722D45A26B6D6E8716D3434609F95](https://github.com/user-attachments/assets/cc82e6cd-a19b-4776-a56c-72eb8f0b9b99)
+
+
 [中文说明](#中文说明-chinese)
 
 ## ✨ Features
