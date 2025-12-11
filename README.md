@@ -42,7 +42,7 @@ Simply enter the icons above in your note, and click them to toggle.
 3. Enable "Table Emoji Toggle" in settings.
 
 ### Manual Installation
-1. Download the `main.js`, `manifest.json`, and `styles.css` from the [Latest Release](https://github.com/caffet/obsidian-table-toggle/releases).
+1. Download the `main.js`, `manifest.json`, and `styles.css` from the [Latest Release](https://github.com/caffetsong/obsidian-table-toggle/releases).
 2. Copy them to your vault folder: `.obsidian/plugins/obsidian-table-toggle/`.
 3. Reload Obsidian and enable the plugin.
 
@@ -91,7 +91,7 @@ MIT License.
 4. 启用插件。
 
 ### 手动安装
-1. 从 [Releases](https://github.com/caffet/obsidian-table-toggle/releases) 页面下载最新版本的文件。
+1. 从 [Releases](https://github.com/caffetsong/obsidian-table-toggle/releases) 页面下载最新版本的文件。
 2. 将文件放入你的库目录：`.obsidian/plugins/obsidian-table-toggle/`。
 3. 重启 Obsidian 并启用插件。
 
