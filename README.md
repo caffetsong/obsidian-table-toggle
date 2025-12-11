@@ -11,9 +11,6 @@ A lightweight plugin for **toggling emojis in tables** without entering Edit Mod
 
 It allows you to directly click on the table to toggle the Emoji icons within it.
 
-## 📸 Demo
-
-> *(Please replace this line with a GIF of your plugin in action.)*
 
 ## 🚀 Usage
 
