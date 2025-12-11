@@ -1,84 +1,64 @@
-# Obsidian Table Emoji Toggle
+# Obsidian Table  Toggle
 
+A lightweight plugin for **toggling emojis in tables** without entering Edit Mode.
 
-Designed specifically to solve the frustration of using checklists inside Obsidian **Live Preview** tables.
-
-[中文说明](#中文说明)
+[中文说明](#中文说明-chinese)
 
 ## ✨ Features
 
-- **True Live Preview Interaction**: Click to toggle emojis instantly. No more jumping into source code or switching to Edit Mode.
-- **Zero Layout Shift**: Since it doesn't trigger the editor's focus, your table layout remains stable.
-- **Global Support**: While optimized for tables, it works anywhere in your document (lists, callouts, headers).
-- **Native Experience**: Uses advanced DOM event interception to provide an app-like feel.
-- **Performance**: Extremely lightweight. No background processes, no heavy rendering.
+It allows you to directly click on the table to toggle the Emoji icons within it.
 
 ## 📸 Demo
 
-> *(Please replace this line with a GIF of your plugin in action. Show clicking a ❌ turning into a ✅ inside a table in Live Preview mode.)*
+> *(Please replace this line with a GIF of your plugin in action.)*
 
 ## 🚀 Usage
 
-This plugin works out of the box. No configuration required.
+The plugin supports toggling between the following Emojis by default:
 
-Simply use the following emojis in your tables:
+- **Unfinished**: `❌`
+- **Finished**: `✅`
 
-- **Unchecked**: `❌`
-- **Checked**: `✅`
+Simply enter the icons above in your note, and click them to toggle.
 
-**Click on the emoji to toggle its state.**
-
-### Example
-
-Copy and paste this into your note to test:
+**Example:**
 
 ```markdown
 | Task | Status |
-| ---- | :----: |
+| --- | --- |
 | Buy Milk | ❌ |
 | Walk the Dog | ✅ |
 | Read Book | ❌ |
 ```
 
-## 📦 Installation
+##  Installation
 
 ### Via Community Plugins (Pending)
 *This plugin is currently under review for the official community plugin list.*
 
-### Via BRAT (Beta Review)
+### Via BRAT
 1. Install **BRAT** from the Community Plugins.
-2. Add Beta plugin with repository: `your-github-username/obsidian-table-toggle`
+2. Add Beta plugin with repository: `caffet/obsidian-table-toggle`
 3. Enable "Table Emoji Toggle" in settings.
 
 ### Manual Installation
-1. Download the `main.js`, `manifest.json`, and `styles.css` from the [Latest Release](https://github.com/your-github-username/obsidian-table-toggle/releases).
+1. Download the `main.js`, `manifest.json`, and `styles.css` from the [Latest Release](https://github.com/caffet/obsidian-table-toggle/releases).
 2. Copy them to your vault folder: `.obsidian/plugins/obsidian-table-toggle/`.
 3. Reload Obsidian and enable the plugin.
 
-## 🔧 How it Works
-
-Unlike other checkbox plugins that try to render HTML widgets (which often conflict with Live Preview's table renderer), this plugin uses **DOM Topology Mapping**.
-
-It detects your click event at the window level, calculates the exact line in the Markdown source based on the HTML table structure, and modifies the text directly. This ensures 100% stability and compatibility with other themes and plugins.
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to submit a Pull Request or open an Issue if you have any ideas.
-
-## 📄 License
+## License
 
 MIT License.
 
 ---
 
-<a name="中文说明"></a>
+<a name="中文说明-chinese"></a>
 
 # 中文说明 (Chinese)
 
 ## 主要功能
 
-它允许你直接点击表格，切换其中的 Emoji 图标
-
+它允许你直接点击表格，切换其中的 Emoji 图标。
 
 ## 如何使用
 
@@ -114,3 +94,4 @@ MIT License.
 1. 从 [Releases](https://github.com/caffet/obsidian-table-toggle/releases) 页面下载最新版本的文件。
 2. 将文件放入你的库目录：`.obsidian/plugins/obsidian-table-toggle/`。
 3. 重启 Obsidian 并启用插件。
+
