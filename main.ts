@@ -12,9 +12,10 @@ interface EditorWithCM {
 }
 
 export default class EmojiTogglePlugin extends Plugin {
-	async onload() {
-		console.log("Emoji Toggle Plugin Loaded");
-
+	// 【修复1】删除了 async 关键字，因为里面没有 await
+	onload() {
+		// 【修复2】删除了 console.log，审核要求不能留 log
+		
 		// 使用捕获模式拦截点击，优先级最高
 		this.registerDomEvent(window, 'pointerdown', (event) => {
 			this.handleGlobalClick(event);
