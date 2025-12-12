@@ -1,6 +1,6 @@
 {
 	"id": "obsidian-table-toggle",
-	"name": "table Clike Toggle",
+	"name": "Table Clike Toggle",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
 	"description": "In a MarkDown table, toggle the symbol (✅/❌) by clicking.在MarkDown表格中，通过点击切换符号（✅/❌）",
